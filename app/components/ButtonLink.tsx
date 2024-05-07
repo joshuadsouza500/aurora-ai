@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import { signIn, signOut, useSession} from "next-auth/react";
 
-export default function ButtonLink({className}:any) {
+export default function ButtonLink({className,value}:any) {
   
   
     const { data: session } = useSession();
@@ -30,7 +30,7 @@ export default function ButtonLink({className}:any) {
       onClick={()=> signIn('google', { callbackUrl: 'http://localhost:3000/chat' })}
       
     >
-        Get Started 
+        {value} 
     </button>
   );
 }
