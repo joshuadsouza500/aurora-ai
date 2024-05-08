@@ -75,7 +75,7 @@ export default function Testimonials() {
                 <h6 className='pb-1'>
                     Hanna sue
                 </h6>
-                <h6 className='text-slate-500'>
+                <h6 >
                   Customer Support at Foxx
                 </h6>
             </div> 
