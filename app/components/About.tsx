@@ -47,7 +47,7 @@ export default function About() {
         alt='team photo'
         width={400}
         height={400}
-        priority={true}
+        priority
         className='overflow-hidden mx-auto rounded-md  aspect-video w-[92%] sm:w-[85%] md:w-auto '
         />
         <h6 className='text-slate-100 text-sm text-opacity-70 pt-1 w-[92%]  sm:w-[85%] md:w-auto '>Aurora ai&apos;s co-founders Walter Marlo, Steven Saarinen, and Wesley Daniel.</h6>

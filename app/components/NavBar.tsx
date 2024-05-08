@@ -29,7 +29,7 @@ export default function NavBar() {
    <>
    
    {/*Big screen nav*/ }
-    <motion.nav className="flex items-center justify-between gap-6 border border-slate-600 px-4 md:px-12 py-2  md:flex-row text-white w-[95%] md:w-[70%] lg:w-[55%] bg-[#E2E8F01A] backdrop-blur-sm mx-auto rounded-[30px] md:rounded-[40px] mb-4 my-3 sticky top-1 z-20 inset-x-0"
+    <motion.nav className="flex items-center justify-between gap-4 border border-slate-600 px-2 md:px-10 py-2 md:py-3  md:flex-row text-white w-[95%] md:w-[70%] lg:w-[55%] bg-[#E2E8F01A] backdrop-blur-sm mx-auto rounded-[30px] md:rounded-[40px] mb-4 my-3 sticky top-1 z-20 inset-x-0"
     variants={{
       hidden :{
         y: -100,   
@@ -43,22 +43,22 @@ export default function NavBar() {
     >
     <Link href={'/'} className='flex items-center'>
        <Image src="/auroraicon2.png" alt="Footer image"
-        width ={50}
-        height ={50}
-        className='w-auto h-auto'
+        width ={40}
+        height ={40}
+        className='md:w-auto md:h-auto'
         />
-        <h4 className='pl-1 font-semibold text-2xl'>Aurora <span className='  text-base align-text-top '>ai</span></h4>
+        <h4 className='pl-1 font-semibold text-xl sm:text-2xl'>Aurora <span className='  text-base align-text-top  '>ai</span></h4>
     </Link>
     <nav>
-     <ul className="flex gap-4 md:gap-6">
-         <li className="inline-flex min-h-11 items-center">
-          <Link href={'/about'} className='text-lg md:text-xl font-medium hover:text-yellow-300 hover:animate-pulse '>
+     <ul className="flex gap-2 md:gap-6">
+         <li className="inline-flex min-h-10 items-center">
+          <Link href={'/about'} className='text-base md:text-xl font-medium hover:text-yellow-300 hover:animate-pulse '>
             About
             </Link>
          </li>
          <li className="inline-flex min-h-10 items-center">
          <Link href={'/chat'}>
-           <ButtonLink value="Get Started" />
+           <ButtonLink value="Demo" className="" />
            </Link>
          </li>
      </ul>

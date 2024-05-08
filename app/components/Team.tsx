@@ -7,7 +7,7 @@ export const team= [
       },
       {
         id:2,
-        name: "Lauren Nguyen",
+        name: "Laura Nuen",
         job: "Machine Learning Specialist",
         img: "/person2.svg"
       },

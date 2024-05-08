@@ -8,7 +8,7 @@ export function DotBackground() {
       maskImage: "linear-gradient(black, transparent)",
     }} />
 
-    <div className="md:hidden h-[20rem] -mt-16 mx-3
+    <div className="md:hidden h-[20rem] -mt-16 mx-2
      w-full  bg-dotsmall-white/[0.2]  flex  absolute " style={{
       maskImage: "linear-gradient(black, transparent)",
     }} />

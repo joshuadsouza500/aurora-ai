@@ -32,7 +32,7 @@ export default function Testimonials() {
                 Ryan Garcia
                 </h6>
                 <h6>
-                Sales Executive at BotWorks Solutions
+                Operations Manager at Meta
                 </h6>
             </div> 
             </div>
@@ -54,7 +54,7 @@ export default function Testimonials() {
                  Sara Lee
                 </h6>
                 <h6>
-                Operations Coordinator at Meta
+                Sales Executive at Meta Solutions
                 </h6>
             </div> 
             </div>
@@ -72,10 +72,10 @@ export default function Testimonials() {
              height={20}
              />   
             <div className='text-slate-400'>   
-                <h6>
+                <h6 className='pb-1'>
                     Hanna sue
                 </h6>
-                <h6>
+                <h6 className='text-slate-500'>
                   Customer Support at Foxx
                 </h6>
             </div> 
@@ -98,7 +98,7 @@ export default function Testimonials() {
                 Jake Miller
                 </h6>
                 <h6>
-                Software Engineer at Virtual Solutions
+                Software Engineer at Google
                 </h6>
             </div> 
             </div>
@@ -164,12 +164,12 @@ export default function Testimonials() {
                 Daniel Walker
                 </h6>
                 <h6>
-                  Product Manager at Sleev
+                  Product Manager at Bitsmart
                 </h6>
             </div> 
             </div>
         </div>
-        <div className=' hidden lg:flex p-5 ring-1  hover:ring-2 justify-around   rounded-md flex-col  bg-gradient-to-b from-slate-900 to-slate-950   lg:-mt-12 lg:mb-12'>
+        <div className= " hidden lg:flex p-5 ring-1  hover:ring-2 justify-around   rounded-md flex-col  bg-gradient-to-b from-slate-900 to-slate-950  lg:-mt-12 lg:mb-12 ">
             <p className='mb-4 text-slate-300 ml-2'>
             &quot;Aurora has proven to be a game-changer for our business, delivering heightened customer satisfaction.&quot;
             </p>

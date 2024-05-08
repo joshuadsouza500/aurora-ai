@@ -52,16 +52,16 @@ export default function Bento() {
         <div className="mt-16 grid w-11/12 md:max-w-4xl  gap-12 md:grid-cols-3  text-white "
       
         >
-           <div className='glass-container col-span-2 md:col-span-1 grid  gap-2  rounded-lg bg-gradient-to-b from-gray-900 to-gray-950 pt-4 pl-4 text-start  '
+           <div className='glass-container col-span-2 md:col-span-1 grid  gap-2  rounded-lg bg-gradient-to-b from-gray-900 to-gray-950 pt-4 text-start  '
            
            >
-             <h3 className='text-3xl'>
+             <h3 className='text-3xl pl-4 '>
              Endless Ideation
              </h3>
-             <p className='max-w-s tracking-wide m  text-slate-300 opacity-80  pb-3 mr-1'>
+             <p className='max-w-s tracking-wide pl-4  m  text-slate-300 opacity-80  pb-3 mr-1'>
              Build using popular AI models like BERT, OpenAi and GPT-3 
              </p>
-             <div className='overflow-hidden mx-auto h-[164px] '>
+             <div className='overflow-hidden mx-auto h-[164px] px-2'>
              <Image 
               src="/bento2.jpg"
               alt="Features"
@@ -71,55 +71,56 @@ export default function Bento() {
              />
              </div>
            </div>
-           <div className='glass-container col-span-2  grid  gap-2  rounded-lg bg-gradient-to-b from-gray-900 to-gray-950 pt-4 pl-4  text-start  '
+           <div className='glass-container col-span-2  grid  gap-2  rounded-lg bg-gradient-to-b from-gray-900 to-gray-950 pt-4  text-start  '
             
            >
-             <h3 className='text-3xl'>
+             <h3 className='text-3xl  pl-4'>
              Benchmark with AI.
              </h3>
-             <p className='max-w-s tracking-wide m md:max-w-lg text-slate-300 opacity-80  md:pb-3'>
+             <p className='max-w-sm tracking-wide pl-4  md:max-w-lg text-slate-300 opacity-80  md:pb-3 '>
              Make your Assistant powerful by connecting with any third party tools or APIs to build function calling without using code.
              </p>
-             <div className='overflow-hidden w-full h-44'>
+             <div className='overflow-hidden w-full h-[136px] md:h-44 px-2'>
              <Image 
               src="/tt.jpg"
               alt="Features"
               height={220}
               width={520}
-              className='rounded-lg pr-1 md:ml-14 mask-linear mask-dir-to-br mask-via-100 mask-to-70  '
+              priority
+              className='rounded-lg  md:ml-14 mask-linear mask-dir-to-br mask-via-100 mask-to-70  '
              />
              </div>
            </div>
-           <div className='glass-container col-span-2  grid gap-2 rounded-lg bg-gradient-to-b from-gray-900 to-gray-950 pt-4 pl-4  text-start '
+           <div className='glass-container col-span-2  grid gap-2 rounded-lg bg-gradient-to-b from-gray-900 to-gray-950 pt-4  text-start '
            
            >
-             <h3 className='text-3xl'>
+             <h3 className='text-3xl pl-4 '>
              Detailed Analytics Reporting
              </h3>
-             <p className=' max-w- tracking-wide sm md:max-w-lg text-slate-300 opacity-80 pb-2 '>
+             <p className=' max-w-sm pl-4 tracking-wide  md:max-w-lg text-slate-300 opacity-80 pb-2 '>
              Unlock user insights by monitoring the quality of user conversations and drive business growth through personalized interactions.
              </p>
-             <div className='overflow-hidden w-full '>
+             <div className='overflow-hidden w-full px-2'>
              <Image 
               src="/bentolong.png"
               alt="Features"
               height= {200}
               width={520}
               quality={100}
-              className='rounded-lg pr-1  mask-linear mask-dir-to-br mask-via-100 md:ml-14 '
+              className='rounded-lg  mask-linear mask-dir-to-br mask-via-100 md:ml-14 '
              />
              </div>
            </div>
-           <div className='glass-container col-span-2 md:col-span-1 grid   rounded-lg bg-gradient-to-b from-gray-900 to-gray-950 pl-4 pt-4 text-start '
+           <div className='glass-container col-span-2 md:col-span-1 grid   rounded-lg bg-gradient-to-b from-gray-900 to-gray-950 pt-4 text-start '
            
            >
-             <h3 className='text-2xl'>
+             <h3 className='text-2xl pl-4'>
              24/7 Customer Support
              </h3>
-             <p className='max-w-m tracking-wide d text-balance text-slate-300 opacity-80  pb-3'>
-              All around customer support
+             <p className='max-w-md pl-4 tracking-wide  \ text-slate-300 opacity-80  pb-3'>
+             Always available for instant customer support round the clock.
              </p>
-             <div className='mx-auto overflow-hidden h-36 w-auto'>
+             <div className='mx-auto overflow-hidden h-36 w-auto px-2'>
              <Image 
               src="/bentosmall.png"
               alt="Features"

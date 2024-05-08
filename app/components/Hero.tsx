@@ -35,7 +35,7 @@ export default function Hero() {
           }
         }}
         >
-        Designs that shine with <span className='bg-gradient-to-b from-white to-[#757575] bg-clip-text text-transparent'>
+        Designs that shine with <span className='bg-gradient-to-br from-white to-[#757575ef] bg-clip-text text-transparent'>
         dynamic intelligence
         </span>
         </motion.h1>
