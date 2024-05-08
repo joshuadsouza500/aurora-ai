@@ -29,7 +29,7 @@ export default function NavBar() {
    <>
    
    {/*Big screen nav*/ }
-    <motion.nav className="flex items-center justify-between gap-6 border border-slate-600 px-4 md:px-16 py-2 md:py-4 md:flex-row text-white w-[95%] md:w-[70%] lg:w-[55%] bg-[#E2E8F01A] backdrop-blur-sm mx-auto rounded-[30px] md:rounded-[40px] mb-4 my-3 sticky top-1 z-20 inset-x-0"
+    <motion.nav className="flex items-center justify-between gap-6 border border-slate-600 px-4 md:px-12 py-2  md:flex-row text-white w-[95%] md:w-[70%] lg:w-[55%] bg-[#E2E8F01A] backdrop-blur-sm mx-auto rounded-[30px] md:rounded-[40px] mb-4 my-3 sticky top-1 z-20 inset-x-0"
     variants={{
       hidden :{
         y: -100,   
