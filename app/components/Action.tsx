@@ -20,7 +20,7 @@ export default function Action() {
           alt='logo'
           width={120}
           height={120}
-          
+          className='h-auto w-auto'
           />
         </motion.div>
         <div className='text-white mt-10'  >

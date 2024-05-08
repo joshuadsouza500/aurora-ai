@@ -20,7 +20,7 @@ export default function Slider() {
         <>
         <h3 className='mx-auto mt-2 mb-3 max-w-72
          md:max-w-3xl  text-center text-lg tracking-wide md:text-2xl text-slate-300 '>Trusted by companies around the world</h3>
-        <div className=" rounded-lg h-full overflow-hidden mx-auto py-3" style={{ width: "85%" }}>
+        <div className=" rounded-lg h-full overflow-hidden mx-auto py-3" style={{  width: "85%" }}>
 
             <motion.div
                 className="flex py-4"
@@ -34,8 +34,8 @@ export default function Slider() {
                 }}
             >
                 {duplicatedSlides.map((slide, index) => (
-                    <div key={index} className="flex-shrink-0 mx-5 lg:-mx-4" style={{ width: `${100 / slides.length}%` }}>
-                        <Image className="flex items-center justify-center h-full"
+                    <div key={index} className="flex-shrink-0 mx-5 lg:-mx-2 " style={{  width: `${100 / slides.length}%` }}>
+                        <Image className="flex items-center justify-center h-full w-32"
                         alt='image'
                         src={slide.imgs}
                         height={100}

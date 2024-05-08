@@ -45,6 +45,7 @@ export default function NavBar() {
        <Image src="/auroraicon2.png" alt="Footer image"
         width ={50}
         height ={50}
+        className='w-auto h-auto'
         />
         <h4 className='pl-1 font-semibold text-2xl'>Aurora <span className='  text-base align-text-top '>ai</span></h4>
     </Link>

@@ -10,10 +10,11 @@ const content = [
     description:
       "Train your chatbot on data from sitelinks, youtube links or uploaded files to build a chatbot from your knowledge base.",
     content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
+      <div className="h-full w-full  flex items-center justify-center text-white relative">
       <Image
         quality={100}
         fill={true}
+        sizes ="(max-width: 768px) 100vw"
         	style={{objectFit: "fill"}}
         src="/bot2.png"
         
@@ -29,13 +30,13 @@ const content = [
     description:
       "Customize your chatbot's role, tone, style, and write custom instructions to give your chatbot a behavior and personality. ",
     content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
+      <div className="h-full w-full  flex items-center justify-center text-white relative">
         <Image
           quality={100}
           fill={true}
           	style={{objectFit: "fill"}}
           src="/bot4.png"
-         
+          sizes ="(max-width: 768px) 100vw"
           className="h-full w-full object-cover"
           alt="linear board demo"
         />
@@ -48,13 +49,13 @@ const content = [
     description:
       "Wait for 5 minutes to have the Chatbot read through your website and files. Once done, you can instantly converse with it. ",
     content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
+      <div className="h-full w-full  flex items-center justify-center text-white relative">
         <Image
           quality={100}
           fill={true}
           	style={{objectFit: "cover"}}
           src="/chat6.png"
-         
+          sizes ="(max-width: 768px) 100vw"
           className="h-full w-full object-cover"
           alt="linear board demo"
         />
@@ -67,13 +68,13 @@ const content = [
     description:
     "Easily integrate your chatbot into your website using our simple embed code. Engage with your visitors and provide instant support using your knowledgeable chatbot. ",
     content: (
-      <div className="h-full w-full  flex items-center justify-center text-white">
+      <div className="h-full w-full  flex items-center justify-center text-white relative">
       <Image
         quality={100}
         fill={true}
         	style={{objectFit: "fill"}}
         src="/bot5.png"
-        
+        sizes ="(max-width: 768px) 100vw"
         className="h-full w-full object-cover"
         alt="linear board demo"
       />

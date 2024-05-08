@@ -22,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dm_Sans.variable} `}>
+      <link rel="icon" href="/auroraicon.png" />
       <body  className="bg-[#070815]">
         <Providers>
         <NavBar />

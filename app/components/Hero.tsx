@@ -123,7 +123,8 @@ export default function Hero() {
           height={720}
           width={1400}
           quality={100}
-          className=" mx-auto rounded-md object-cover h-full  "
+          priority
+          className=" mx-auto rounded-md object-cover h-full w-auto "
           draggable={false}
         />
     </motion.div>

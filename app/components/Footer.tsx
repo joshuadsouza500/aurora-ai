@@ -10,6 +10,7 @@ export default function Footer() {
        <Image src="/auroraicon.png" alt="Footer image"
         width ={50}
         height ={50}
+        className='h-auto w-auto'
         />
         <h4 className='pl-1 font-semibold text-2xl'>Aurora <span className='  text-base align-text-top '>ai</span></h4>
     </Link>
