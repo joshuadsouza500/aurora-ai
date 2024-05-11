@@ -57,9 +57,9 @@ export default function NavBar() {
             </Link>
          </li>
          <li className="inline-flex min-h-10 items-center">
-         <Link href={'/chat'}>
+         
            <ButtonLink value="Demo" className="" />
-           </Link>
+           
          </li>
      </ul>
     </nav>
