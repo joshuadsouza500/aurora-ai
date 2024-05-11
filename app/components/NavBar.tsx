@@ -8,7 +8,7 @@ import { easeInOut, motion,useMotionValueEvent,useScroll, } from 'framer-motion'
 
 export default function NavBar() {
 
-   const [open,setOpen] = useState(false);
+   
    const [hidden, setHidden] = useState(false)
    const {scrollY} = useScroll();
 
