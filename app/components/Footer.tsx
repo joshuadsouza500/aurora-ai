@@ -5,7 +5,7 @@ import ButtonLink from './ButtonLink';
 
 export default function Footer() {
   return (
-    <footer className="flex  items-center justify-between gap-6 border-t border-slate-600 px-6 py-6 md:flex-row text-white">
+    <footer className="flex  items-center justify-between gap-6 border-t border-slate-600 p-6 md:flex-row text-white">
       <Link href={'/'} className='flex items-center'>
        <Image src="/auroraicon.png" alt="Footer image"
         width ={40}
